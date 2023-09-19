@@ -21,6 +21,7 @@
   <img src="../misc/images/part1_08.png" alt=part1_08 width="700"/>
   <img src="../misc/images/part1_09.png" alt=part1_09 width="700"/>
 - From the command output define and write in the report the container size, list of mapped ports and container ip: \
-  - size is 186639842;
+  - size is 67108864; \
+    <img src="../misc/images/part1_10.png" alt=part1_10 width="700"/>
   - exposed ports list is "80/tcp": {}
   - 
