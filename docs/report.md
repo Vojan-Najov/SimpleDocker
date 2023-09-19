@@ -29,4 +29,6 @@
     <img src="../misc/images/part1_12.png" alt=part1_12 width="700"/>
 - Stop docker image with docker stop 6ec26c60f4f8. \
   <img src="../misc/images/part1_13.png" alt=part1_13 width="700"/>
+- Check that the image has stopped with `docker ps`. \
+  <img src="../misc/images/part1_14.png" alt=part1_14 width="700"/>
 
