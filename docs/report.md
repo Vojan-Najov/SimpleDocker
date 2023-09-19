@@ -31,7 +31,8 @@
   <img src="../misc/images/part1_13.png" alt=part1_13 width="700"/>
 - Check that the image has stopped with `docker ps`. \
   <img src="../misc/images/part1_14.png" alt=part1_14 width="700"/>
-- Run docker with ports 80 and 443 in container, mapped to the same ports on the local machine, with docker run -d -p 127.0.0.1:80:80 -p 127.0.0.1:443:443 \
+- Run docker with ports 80 and 443 in container, mapped to the same ports on the local machine, \
+  using command `docker run -d -p 127.0.0.1:80:80 -p 127.0.0.1:443:443` \
   <img src="../misc/images/part1_15.png" alt=part1_15 width="700"/>
 - Check that the nginx start page is available in the browser at `localhost:80`. \
   <img src="../misc/images/part1_16.png" alt=part1_15 width="700"/>
