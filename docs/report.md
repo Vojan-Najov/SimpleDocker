@@ -6,5 +6,7 @@
 
 ## Part 1. Ready-made docker
 
-- Take the official docker image from nginx and download it using docker pull. \
+- Take the official docker image from nginx and download it using `docker pull`. \
   <img src="../misc/images/part1_01.png" alt=part1_01 width="700"/>
+- Check for the docker image with `docker images`. \
+  <img src="../misc/images/part1_02.png" alt=part1_02 width="700"/>
