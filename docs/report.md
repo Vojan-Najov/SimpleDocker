@@ -35,8 +35,11 @@
   using command `docker run -d -p 127.0.0.1:80:80 -p 127.0.0.1:443:443` \
   <img src="../misc/images/part1_15.png" alt=part1_15 width="700"/>
 - Check that the nginx start page is available in the browser at `localhost:80`. \
-  <img src="../misc/images/part1_16.png" alt=part1_15 width="700"/>
+  <img src="../misc/images/part1_16.png" alt=part1_16 width="700"/>
   - Pre-install xinit, openbox, firefox on a virtual machine.
   - Then open the window manager with the `startx` command, right-click open `firefox`.
+- Restart docker container with `docker restart [container_id|container_name]`. \
+  Then check in any way that the container is running. \
+  <img src="../misc/images/part1_17.png" alt=part1_17 width="700"/>
 
 
