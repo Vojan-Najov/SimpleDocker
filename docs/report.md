@@ -64,6 +64,11 @@
 - Restart nginx inside the docker image with exec: \
   `docker exec -it nginx_container sh -c "nginx -s reload"` \
   <img src="../misc/images/part2_05.png" alt=part2_05 width="700"/>
+- Check that localhost:80/status returns the nginx server status page: \
+  <img src="../misc/images/part2_06.png" alt=part2_06 width="700"/> \
+  <img src="../misc/images/part2_07.png" alt=part2_07 width="700"/>
+
+
   
 
 
