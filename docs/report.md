@@ -2,7 +2,7 @@
 
 ## Contents
 
-1. [Ready-made docker](#part-1-ready-made docker)
+1. [Ready-made docker](#part-1-ready-made-docker)
 2. [Operations with container](#part-2-operations-with-container)
 
 ## Part 1. Ready-made docker
