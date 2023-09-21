@@ -51,4 +51,9 @@
   Then read config using command: \
   `docker exec -it nginx_container sh -c "cat /etc/nginx/nginx.conf"` \
   <img src="../misc/images/part2_01.png" alt=part2_01 width="700"/>
+- Create a nginx.conf file on a local machine. \
+  We use redirection of the standard stream to a file nginx.conf: \
+  `docker exec -it nginx_container sh -c "cat /etc/nginx/nginx.conf" >nginx.conf`
+  <img src="../misc/images/part2_02.png" alt=part2_02 width="700"/>
+
   
