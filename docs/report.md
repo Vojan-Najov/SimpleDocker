@@ -67,6 +67,10 @@
 - Check that localhost:80/status returns the nginx server status page: \
   <img src="../misc/images/part2_06.png" alt=part2_06 width="700"/> \
   <img src="../misc/images/part2_07.png" alt=part2_07 width="700"/>
+- Export the container to a container.tar file with the export command \
+  `docker export --output="container.tar" nginx_container` \
+  <img src="../misc/images/part2_08.png" alt=part2_08 width="700"/>
+
 
 
   
