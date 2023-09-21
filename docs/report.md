@@ -80,8 +80,14 @@
   `docker container rm nginx_container` \
   <img src="../misc/images/part2_11.png" alt=part2_11 width="700"/>
 - Import the container back using the import command: \
-  `docker import container.tar` \
+  `docker import -c "ENTRYPOINT [\"/docker-entrypoint.sh\", \"/usr/sbin/nginx\", \"-g\", \"daemon off;\"]" container.tar nginx` \
   <img src="../misc/images/part2_12.png" alt=part2_12 width="700"/>
+- Run the imported container: \
+  `docker run -d -p 80:80 --name nginx_container nginx` \
+  <img src="../misc/images/part2_13.png" alt=part2_13 width="700"/>
+- Check that localhost:80/status returns the nginx server status page: \
+  <img src="../misc/images/part2_14.png" alt=part2_14 width="700"/> \
+  <img src="../misc/images/part2_15.png" alt=part2_15 width="700"/>
 
 
 
