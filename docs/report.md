@@ -55,5 +55,9 @@
   We use redirection of the standard stream to a file nginx.conf: \
   `docker exec -it nginx_container sh -c "cat /etc/nginx/nginx.conf" >nginx.conf`
   <img src="../misc/images/part2_02.png" alt=part2_02 width="700"/>
+- Configure it on the /status path to return the nginx server status page. \
+  let's change the configuration: \
+  <img src="../misc/images/part2_03.png" alt=part2_03 width="700"/>
+
 
   
