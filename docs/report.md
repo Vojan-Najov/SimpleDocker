@@ -58,6 +58,13 @@
 - Configure it on the /status path to return the nginx server status page. \
   let's change the configuration: \
   <img src="../misc/images/part2_03.png" alt=part2_03 width="700"/>
+- Copy the created nginx.conf file inside the docker image using the docker cp command: \
+  `docker cp nginx.conf nginx_container:/etc/nginx` \
+  <img src="../misc/images/part2_04.png" alt=part2_04 width="700"/>
+- Restart nginx inside the docker image with exec: \
+  `docker exec -it nginx_container sh -c "nginx -s reload"` \
+  <img src="../misc/images/part2_05.png" alt=part2_05 width="700"/>
+  
 
 
   
