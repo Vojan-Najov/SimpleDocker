@@ -3,6 +3,7 @@
 ## Contents
 
 1. [Ready-made docker](#part-1-ready-made docker)
+2. [Operations with container](#part-2-operations-with-container)
 
 ## Part 1. Ready-made docker
 
@@ -42,4 +43,11 @@
   Then check in any way that the container is running. \
   <img src="../misc/images/part1_17.png" alt=part1_17 width="700"/>
 
+## Part 2. Operations with container
 
+- Read the nginx.conf configuration file inside the docker container with the exec command \
+  Run docker with name nginx_container  with ports 80 and 443 in container using command \
+  `docker run -d -p 127.0.0.1:80:80 -p 127.0.0.1:443:443 --name nginx_container nginx`  Then read config using \
+  `docker exec -it nginx_container sh -c "cat /etc/nginx/nginx.conf"` \
+  <img src="../misc/images/part2_01.png" alt=part2_01 width="700"/>
+  
