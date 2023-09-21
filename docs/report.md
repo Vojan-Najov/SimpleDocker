@@ -70,6 +70,18 @@
 - Export the container to a container.tar file with the export command \
   `docker export --output="container.tar" nginx_container` \
   <img src="../misc/images/part2_08.png" alt=part2_08 width="700"/>
+- Stop the container: \
+  `docker stop nginx_container` \
+  <img src="../misc/images/part2_09.png" alt=part2_09 width="700"/>
+- Delete the image with docker rmi [image_id|repository]without removing the container first: \
+  `docker rmi -f nginx` \
+  <img src="../misc/images/part2_10.png" alt=part2_10 width="700"/>
+- Delete stopped container: \
+  `docker container rm nginx_container` \
+  <img src="../misc/images/part2_11.png" alt=part2_11 width="700"/>
+- Import the container back using the import command: \
+  `docker import container.tar` \
+  <img src="../misc/images/part2_12.png" alt=part2_12 width="700"/>
 
 
 
