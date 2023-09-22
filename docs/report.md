@@ -104,7 +104,11 @@
   `$> spawn-fcgi -p 8080 server/hello_world` \
   <img src="../misc/images/part3_02.png" alt=part3_02 width="700"/>
 - Write your own nginx.conf that will proxy all requests from port 81 to 127.0.0.1:8080 \
-  <img src="../misc/images/part3_03.png" alt=part3_03 width="700"/>
+  <img src="../misc/images/part3_03.png" alt=part3_03 width="700"/> \
+  then `$>sudo cp nginx/ngnix.conf /etc/nginx/conf.d` \
+  then `$>sudo nginx -t` \
+  then `$>sudo nginx -s reload` \
+  <img src="../misc/images/part3_04.png" alt=part3_04 width="700"/>
   
 
   
