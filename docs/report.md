@@ -6,6 +6,7 @@
 2. [Operations with container](#part-2-operations-with-container)
 3. [Mini web server](#part-3-mini-web-server)
 4. [Your own docker](#part-4-your-own-docker)
+5. [Part 5. Dockle](#part-5-dockle)
 
 ## Part 1. Ready-made docker
 
@@ -136,6 +137,12 @@
 - Restart docker image; \
   Check that localhost:80/status now returns a page with nginx status: \
   <img src="../misc/images/part4_07.png" alt=part4_07 width="700"/>
+
+## Part 5. Dockle
+
+- Check the image from the previous task with dockle [image_id|repository] \
+  <img src="../misc/images/part5_01.png" alt=part5_01 width="700"/>
+  
 
 
 
