@@ -133,6 +133,9 @@
   <img src="../misc/images/part4_05.png" alt=part4_05 width="700"/>
 - Add proxying of /status page in ./nginx/nginx.conf to return the nginx server status \
   <img src="../misc/images/part4_06.png" alt=part4_06 width="700"/>
+- Restart docker image \
+  <img src="../misc/images/part4_07.png" alt=part4_07 width="700"/>
+
 
 
 
