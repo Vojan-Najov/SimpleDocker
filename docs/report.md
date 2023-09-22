@@ -142,6 +142,11 @@
 
 - Check the image from the previous task with dockle [image_id|repository] \
   <img src="../misc/images/part5_01.png" alt=part5_01 width="700"/>
+- Fix the image so that there are no errors or warnings when checking with dockle: \
+  <img src="../misc/images/part5_02.png" alt=part5_02 width="700"/> \
+  <img src="../misc/images/part5_03.png" alt=part5_03 width="700"/> \
+  
+
   
 
 
