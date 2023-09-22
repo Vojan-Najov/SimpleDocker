@@ -126,7 +126,9 @@
   <img src="../misc/images/part4_02.png" alt=part4_02 width="700"/>
 - Check with docker images that everything is built correctly \
   <img src="../misc/images/part4_03.png" alt=part4_03 width="700"/>
-
+- Run the built docker image by mapping port 81 to 80 on the local machine and mapping the ./nginx folder inside the container \
+  `docker run -d -p 80:81 -v ./nginx:/etc/nginx/conf.d --name hello hello_world:latest` \
+  <img src="../misc/images/part4_04.png" alt=part4_04 width="700"/>
 
   
 
