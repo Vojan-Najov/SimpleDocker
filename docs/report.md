@@ -115,11 +115,11 @@
   
 ## Part 4. Your own docker
 
-- Write your own docker image that: \
-  1) builds mini server sources on FastCgi \
-  2) runs it on port 8080 \
-  3) copies inside the image written ./nginx/nginx.conf \
-  4) runs nginx \
+- Write your own docker image that: 
+  1) builds mini server sources on FastCgi 
+  2) runs it on port 8080 
+  3) copies inside the image written ./nginx/nginx.conf 
+  4) runs nginx 
   <img src="../misc/images/part4_01.png" alt=part4_01 width="700"/>
 
 
