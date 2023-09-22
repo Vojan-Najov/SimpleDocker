@@ -4,6 +4,7 @@
 
 1. [Ready-made docker](#part-1-ready-made-docker)
 2. [Operations with container](#part-2-operations-with-container)
+3. [Mini web server](#part-3-mini-web-server)
 
 ## Part 1. Ready-made docker
 
@@ -89,7 +90,13 @@
   <img src="../misc/images/part2_14.png" alt=part2_14 width="700"/> \
   <img src="../misc/images/part2_15.png" alt=part2_15 width="700"/>
 
+## Part 3. Mini web server
 
+- First install gcc, libfcgi, spawn-fcgi, nginx on virtual machine: \
+  `$> sudo apt install gcc` \
+  `$> sudo apt install libfcgi-dev` \
+  `$> sudo apt install spawn-fcgi` \
+  `$> sudo apt install nginx`
 
   
 
