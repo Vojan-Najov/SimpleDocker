@@ -121,6 +121,9 @@
   3) copies inside the image written ./nginx/nginx.conf 
   4) runs nginx 
   <img src="../misc/images/part4_01.png" alt=part4_01 width="700"/>
+- Build the written docker image with docker build, specifying the name and tag: \
+  `docker build -t hello_world:latest . ` \
+  <img src="../misc/images/part4_02.png" alt=part4_02 width="700"/>
 
 
   
