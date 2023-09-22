@@ -124,6 +124,8 @@
 - Build the written docker image with docker build, specifying the name and tag: \
   `docker build -t hello_world:latest . ` \
   <img src="../misc/images/part4_02.png" alt=part4_02 width="700"/>
+- Check with docker images that everything is built correctly \
+  <img src="../misc/images/part4_03.png" alt=part4_03 width="700"/>
 
 
   
