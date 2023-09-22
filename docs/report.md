@@ -131,6 +131,9 @@
   <img src="../misc/images/part4_04.png" alt=part4_04 width="700"/>
 - Check that the page of the written mini server is available on localhost:80 \
   <img src="../misc/images/part4_05.png" alt=part4_05 width="700"/>
+- Add proxying of /status page in ./nginx/nginx.conf to return the nginx server status \
+  <img src="../misc/images/part4_06.png" alt=part4_06 width="700"/>
+
 
 
   
