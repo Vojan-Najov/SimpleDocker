@@ -97,6 +97,8 @@
   `$> sudo apt install libfcgi-dev` \
   `$> sudo apt install spawn-fcgi` \
   `$> sudo apt install nginx`
+- Write a mini server in C and FastCgi that will return a simple page saying Hello World! \
+  <img src="../misc/images/part3_01.png" alt=part3_01 width="700"/>
 
   
 
