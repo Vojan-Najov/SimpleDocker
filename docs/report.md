@@ -109,6 +109,8 @@
   then `$>sudo nginx -t` \
   then `$>sudo nginx -s reload` \
   <img src="../misc/images/part3_04.png" alt=part3_04 width="700"/>
+- Check that browser on localhost:81 returns the page you wrote \
+  <img src="../misc/images/part3_05.png" alt=part3_05 width="700"/>
   
 
   
