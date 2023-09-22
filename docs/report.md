@@ -103,7 +103,9 @@
   `$> gcc server/hello_world.c -o server/hello_world -lfcgi` \
   `$> spawn-fcgi -p 8080 server/hello_world` \
   <img src="../misc/images/part3_02.png" alt=part3_02 width="700"/>
-- Run the written mini server via spawn-fcgi on port 8080: \
+- Write your own nginx.conf that will proxy all requests from port 81 to 127.0.0.1:8080 \
+  <img src="../misc/images/part3_03.png" alt=part3_03 width="700"/>
+  
 
   
 
