@@ -5,6 +5,7 @@
 1. [Ready-made docker](#part-1-ready-made-docker)
 2. [Operations with container](#part-2-operations-with-container)
 3. [Mini web server](#part-3-mini-web-server)
+4. [Your own docker](#part-4-your-own-docker)
 
 ## Part 1. Ready-made docker
 
@@ -112,6 +113,15 @@
 - Check that browser on localhost:81 returns the page you wrote \
   <img src="../misc/images/part3_05.png" alt=part3_05 width="700"/>
   
+## Part 4. Your own docker
+
+- Write your own docker image that: \
+  1) builds mini server sources on FastCgi \
+  2) runs it on port 8080 \
+  3) copies inside the image written ./nginx/nginx.conf \
+  4) runs nginx \
+  <img src="../misc/images/part4_01.png" alt=part4_01 width="700"/>
+
 
   
 
