@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  proxy:
+    image: nginx
+    networks:
+      - intnet
+    volumes:
+      - ./proxy.conf:/etc/nginx/conf.d/proxy.conf
+    ports:
+      - "80:8080"
+
+  app:
+    build: .
+    networks:
+      - intnet
+
+networks:
+  intnet:
+
