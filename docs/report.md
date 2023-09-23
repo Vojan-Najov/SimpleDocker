@@ -165,12 +165,3 @@
   <img src="../misc/images/part6_06.png" alt=part6_06 width="700"/> \
   <img src="../misc/images/part6_07.png" alt=part6_07 width="700"/>
   
- 
-
-
-
-
-  
-
-
-  
