@@ -6,7 +6,8 @@
 2. [Operations with container](#part-2-operations-with-container)
 3. [Mini web server](#part-3-mini-web-server)
 4. [Your own docker](#part-4-your-own-docker)
-5. [Part 5. Dockle](#part-5-dockle)
+5. [Dockle](#part-5-dockle)
+6. [Basic Docker Compose](#part-6-basic-docker-compose)
 
 ## Part 1. Ready-made docker
 
@@ -144,10 +145,17 @@
   <img src="../misc/images/part5_01.png" alt=part5_01 width="700"/>
 - Fix the image so that there are no errors or warnings when checking with dockle: \
   <img src="../misc/images/part5_02.png" alt=part5_02 width="700"/> \
-  <img src="../misc/images/part5_03.png" alt=part5_03 width="700"/> \
+  <img src="../misc/images/part5_03.png" alt=part5_03 width="700"/>
   
+## Part 6. Basic Docker Compose
 
+- Write a docker-compose.yml file, using which:
+  1) Start the docker container from Part 5;
+  2) Start the docker container with nginx which will proxy all requests \
+     from port 8080 to port 81 of the first container
+  <img src="../misc/images/part6_01.png" alt=part6_01 width="700"/>
   
+ 
 
 
 
