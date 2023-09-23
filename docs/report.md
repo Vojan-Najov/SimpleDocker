@@ -153,7 +153,7 @@
   1) Start the docker container from Part 5;
   2) Start the docker container with nginx which will proxy all requests \
      from port 8080 to port 81 of the first container
-  <img src="../misc/images/part6_01.png" alt=part6_01 width="700"/> \
+  <img src="../misc/images/part6_01.png" alt=part6_01 width="700"/>
   <img src="../misc/images/part6_00.png" alt=part6_00 width="700"/>
 - Stop all running containers \
   <img src="../misc/images/part6_02.png" alt=part6_02 width="700"/>
