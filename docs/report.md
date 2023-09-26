@@ -32,7 +32,7 @@
     <img src="../misc/images/part1_11.png" alt=part1_11 width="600"/>
   - ip is `172.17.0.2`; \
     <img src="../misc/images/part1_12.png" alt=part1_12 width="600"/>
-- Stop docker image with docker stop 6ec26c60f4f8. \
+- Stop docker image with `docker stop nginx_container`. \
   <img src="../misc/images/part1_13.png" alt=part1_13 width="700"/>
 - Check that the image has stopped with `docker ps`. \
   <img src="../misc/images/part1_14.png" alt=part1_14 width="700"/>
