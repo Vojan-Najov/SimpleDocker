@@ -28,7 +28,7 @@ fi
 sudo apt install make
 sudo apt install openbox
 sudo apt install xinit 
-sudo apt install kitty firefox-esr
+sudo apt install kitty
 sudo apt install firefox
 sudo apt install gcc
 sudo apt install libfcgi-dev
