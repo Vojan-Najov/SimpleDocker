@@ -19,7 +19,7 @@
   <img src="../misc/images/part1_03.png" alt=part1_03 width="700"/>
 - Check that the image is running with `docker ps`. \
   <img src="../misc/images/part1_04.png" alt=part1_04 width="700"/>
-- View container information with `docker inspect 6ec26c60f4f8`. \
+- View container information with `docker inspect nginx_container`. \
   <img src="../misc/images/part1_05.png" alt=part1_05 width="700"/> \
   <img src="../misc/images/part1_06.png" alt=part1_06 width="700"/> \
   <img src="../misc/images/part1_07.png" alt=part1_07 width="700"/> \
